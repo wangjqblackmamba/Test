@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+adb shell 
+
+1、进入bootloader模式
+reboot  bootloader    
+
+
+
+2、烧写镜像
+fastboot flash boot D:\王建秋\boot.img
+
+fastboot flash dtbo D:\王建秋\dtbo.img
+3、重启板子
+fastboot reboot
